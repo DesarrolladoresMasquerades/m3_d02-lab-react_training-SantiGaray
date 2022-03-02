@@ -1,24 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
+import IdCards from './components/IdCards'
+import Greetings from './components/Greetings'
+import Random from './components/Random'
+import BoxColor from './components/BoxColor'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <IdCards />
+      <Greetings lang="de">Santiago</Greetings>
+      <Random min={2} max={2000}/>
+      <BoxColor r={255} g={0} b={0} >RGB Box</BoxColor>
+      <BoxColor r={128} g={255} b={0} >RGB Box</BoxColor>
+        
     </div>
   );
 }
