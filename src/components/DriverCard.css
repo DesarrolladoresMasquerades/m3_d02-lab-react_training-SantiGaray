@@ -1,0 +1,30 @@
+.DriverCard {
+    background-color: #425cbb;
+    color: white;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    margin: 12px;
+    
+    
+    border-radius: 11px;
+    
+  }
+  
+  .DriverCard img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+  
+  .DriverCard h2,
+  p {
+    margin: 0px;
+  }
+  
+  .text {
+    margin: 5px;
+  }

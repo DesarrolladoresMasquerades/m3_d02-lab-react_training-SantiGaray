@@ -1,0 +1,30 @@
+.CreditCard {
+    display: inline-block;
+    gap: 15px;
+    border-radius: 6px;
+    margin: 18;
+    padding: 18px;
+    width: 320px;
+    height: 150px;
+  }
+  
+  .CreditCard img {
+    height: 18px;
+  }
+  
+  .type {
+    text-align: right;
+  }
+  
+  .number {
+    font-size: 2em;
+    margin: 18px 0px;
+    text-align: center;
+  }
+  
+  .bank {
+
+    margin-bottom: 0px;
+    margin-left: 18px;
+
+  }
